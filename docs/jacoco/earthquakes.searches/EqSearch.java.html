@@ -4,20 +4,41 @@
     //private member variables
     private int distance;
     private int minmag;
+    private double lat;
+    private double lon;
+    private String location;
     //getters
     public int getDistance(){
-<span class="fc" id="L9">	return distance;</span>
+<span class="fc" id="L12">	return distance;</span>
     }
     public int getMinmag(){
-<span class="fc" id="L12">	return minmag;</span>
+<span class="fc" id="L15">	return minmag;</span>
     }
+    public double getLat(){
+<span class="fc" id="L18">	return lat;</span>
+    }
+    public double getLon(){
+<span class="fc" id="L21">	return lon;</span>
+    }
+    public String getLocation(){
+<span class="fc" id="L24">	return location;</span>
+    }
+    
     //setters
     public void setDistance(int distance){
-<span class="nc" id="L16">	this.distance=distance;</span>
-<span class="nc" id="L17">    }</span>
+<span class="nc" id="L29">	this.distance=distance;</span>
+<span class="nc" id="L30">    }</span>
     public void setMinmag(int minmag){
-<span class="nc" id="L19">	this.minmag=minmag;</span>
-<span class="nc" id="L20">    }</span>
-
+<span class="nc" id="L32">	this.minmag=minmag;</span>
+<span class="nc" id="L33">    }</span>
+    public void setLat(double lat){
+<span class="nc" id="L35">	this.lat=lat;</span>
+<span class="nc" id="L36">    }</span>
+    public void setLon(double lon){
+<span class="nc" id="L38">	this.lon=lon;</span>
+<span class="nc" id="L39">    }</span>
+    public void setLocation(String location){
+<span class="nc" id="L41">	this.location=location;</span>
+<span class="nc" id="L42">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>
