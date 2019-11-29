@@ -1,5 +1,5 @@
 link to webpage of documentation:
-https://ucsb-cs56-f19.github.io/proj01-irismoini/
+https://ucsb-cs56-f19.github.io/proj02-irismoini/
 
 link to heroku webapp:
 https://cs56-f19-proj02-irismoini.herokuapp.com
