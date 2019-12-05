@@ -12,6 +12,7 @@
       <table class="table">
           <thead>
             <tr>
+	      <th>uid</th>
 	      <th>id</th>
 	      <th>placeId</th>
                   <th>name</th>
@@ -23,6 +24,7 @@
           </thead>
           <tbody>
             <tr th:each="l: ${locations}">
+	      <td th:text="${l.uid}"></td>
                 <td th:text="${l.id}"></td>
                 <td th:text="${l.placeId}"></td>
                 <td th:text="${l.name}"></td>
